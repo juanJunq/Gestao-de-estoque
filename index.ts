@@ -21,8 +21,8 @@ const main = async() => {
         switch(W){
             case 1:
                 var N = prompt("Nome do produto: ");
-                var P = prompt("Peso do produto: ");
-                var V = prompt("Valor do produto: ");
+                var P = prompt("Peso do produto(kg): ");
+                var V = prompt("Valor do produto(R$): ");
                 var Q = prompt("Quantidade do produto: ");
                 const produto = {
                     nome: N,
